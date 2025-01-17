@@ -20,5 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/rumah-sakit/sinkronisasi', 'RumahSakitController@sinkronisasi')->name('sinkronisasi');
-Route::get('/rumah-sakit', 'RumahSakitController@index')->name('list-rumah-sakit');
+Route::get('/rs/sync', 'RsController@sinkronisasi')->name('sinkronisasi');
+Route::get('/rs', 'RsController@index')->name('list-rs');

@@ -7,7 +7,7 @@ use App\RumahSakit;
 use Carbon\Carbon;
 use Illuminate\Support\Facades\Http;
 use App\Http\Resources\DaftarRumahSakitResource;
-class RumahSakitController extends Controller
+class RsController extends Controller
 {
     /**
      * Display a listing of the resource.
